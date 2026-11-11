@@ -1,0 +1,22 @@
+{
+  "pass_id": "PASS-2026-11-02T04:32:25Z",
+  "satellite": "PW-SAT3",
+  "station": "GS-PRZASNYSZ",
+  "operator": "Jan Kowalski",
+  "started_utc": "2026-11-11T08:29:13Z",
+  "ended_utc": "2026-11-11T08:29:26Z",
+  "result": "ABORT",
+  "exit_code": 2,
+  "reason": "window_missed",
+  "min_elev_deg": 10.0,
+  "sim_duration_s": 0.0,
+  "activities": [],
+  "summary": {
+    "planned": 4,
+    "ok": 0,
+    "warn": 0,
+    "failed": 0,
+    "skipped": 0,
+    "aborted": true
+  }
+}

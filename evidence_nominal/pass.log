@@ -1,0 +1,13 @@
+2026-11-11 09:15:12,620 [INFO] Loaded plan PASS-2026-11-02T04:32:25Z for PW-SAT3 with 4 activities
+2026-11-11 09:15:12,622 [INFO] Connected to satellite mock on 127.0.0.1:8200
+2026-11-11 09:15:12,622 [INFO] Waiting for pass window...
+2026-11-11 09:15:12,623 [INFO] Entered pass window: state=IN_PASS, elev=39.8° >= 10.0°
+2026-11-11 09:19:20,619 [INFO] Loaded plan PASS-2026-11-02T04:32:25Z for PW-SAT3 with 4 activities
+2026-11-11 09:19:20,621 [INFO] Connected to satellite mock on 127.0.0.1:8200
+2026-11-11 09:19:20,622 [INFO] Waiting for pass window...
+2026-11-11 09:19:20,623 [INFO] Entered pass window: state=IN_PASS, elev=32.3° >= 10.0°
+2026-11-11 09:19:20,738 [INFO] Activity ping-aos (ping) attempt 1: reply='OK+A001031A2B', rtt=111.3ms
+2026-11-11 09:19:22,267 [INFO] Activity tm-1 (telemetry) attempt 1: reply='OK+1A2B00030102030405060708090A0B0C0D0E0F10', rtt=110.1ms
+2026-11-11 09:19:26,323 [INFO] Activity ping-mid (ping) attempt 1: reply='OK+A001031A2B', rtt=109.7ms
+2026-11-11 09:19:31,325 [INFO] Activity tm-2 (telemetry) attempt 1: reply='OK+1A2B00030102030405060708090A0B0C0D0E0F10', rtt=102.0ms
+2026-11-11 09:19:34,059 [INFO] Pass session ended normally at T_S=540.5s

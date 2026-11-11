@@ -1,0 +1,40 @@
+{
+  "pass_id": "PASS-2026-11-02T04:32:25Z",
+  "satellite": "PW-SAT3",
+  "station": "GS-PRZASNYSZ",
+  "min_elev_deg": 10.0,
+  "activities": [
+    {
+      "id": "ping-aos",
+      "at_s": 60.0,
+      "type": "ping",
+      "timeout_s": 2.0,
+      "retries": 1,
+      "required": true
+    },
+    {
+      "id": "tm-1",
+      "at_s": 180.0,
+      "type": "telemetry",
+      "timeout_s": 2.0,
+      "retries": 1,
+      "required": true
+    },
+    {
+      "id": "ping-mid",
+      "at_s": 300.0,
+      "type": "ping",
+      "timeout_s": 2.0,
+      "retries": 1,
+      "required": false
+    },
+    {
+      "id": "tm-2",
+      "at_s": 450.0,
+      "type": "telemetry",
+      "timeout_s": 2.0,
+      "retries": 1,
+      "required": true
+    }
+  ]
+}

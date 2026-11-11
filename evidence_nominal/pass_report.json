@@ -1,0 +1,79 @@
+{
+  "pass_id": "PASS-2026-11-02T04:32:25Z",
+  "satellite": "PW-SAT3",
+  "station": "GS-PRZASNYSZ",
+  "operator": "Jan Kowalski",
+  "started_utc": "2026-11-11T08:19:20Z",
+  "ended_utc": "2026-11-11T08:19:34Z",
+  "result": "PASS",
+  "exit_code": 0,
+  "reason": null,
+  "min_elev_deg": 10.0,
+  "sim_duration_s": 540.5,
+  "activities": [
+    {
+      "id": "ping-aos",
+      "type": "ping",
+      "required": true,
+      "planned_at_s": 60.0,
+      "started_at_s": 137.5,
+      "status": "ok",
+      "attempts": 1,
+      "rtt_ms": [
+        111.34349997155368
+      ],
+      "response": "OK+A001031A2B",
+      "error": null
+    },
+    {
+      "id": "tm-1",
+      "type": "telemetry",
+      "required": true,
+      "planned_at_s": 180.0,
+      "started_at_s": 180.4,
+      "status": "ok",
+      "attempts": 1,
+      "rtt_ms": [
+        110.06149998866022
+      ],
+      "response": "OK+1A2B00030102030405060708090A0B0C0D0E0F10",
+      "error": null
+    },
+    {
+      "id": "ping-mid",
+      "type": "ping",
+      "required": false,
+      "planned_at_s": 300.0,
+      "started_at_s": 302.1,
+      "status": "ok",
+      "attempts": 1,
+      "rtt_ms": [
+        109.70660008024424
+      ],
+      "response": "OK+A001031A2B",
+      "error": null
+    },
+    {
+      "id": "tm-2",
+      "type": "telemetry",
+      "required": true,
+      "planned_at_s": 450.0,
+      "started_at_s": 452.4,
+      "status": "ok",
+      "attempts": 1,
+      "rtt_ms": [
+        101.95939999539405
+      ],
+      "response": "OK+1A2B00030102030405060708090A0B0C0D0E0F10",
+      "error": null
+    }
+  ],
+  "summary": {
+    "planned": 4,
+    "ok": 4,
+    "warn": 0,
+    "failed": 0,
+    "skipped": 0,
+    "aborted": false
+  }
+}

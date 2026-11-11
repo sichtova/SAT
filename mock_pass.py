@@ -55,7 +55,6 @@ def st(cmd):
         state = "POST"
         elev_deg = 0.0
 
-
     #rx(received) = cmd, tx(sent) = answer
     if cmd == "PASS?\r":        #checks the commands from user
         answer = f'PASS {state} {elev_deg} {t_sim}\r'

@@ -1,0 +1,4 @@
+2026-11-11 09:29:13,015 [INFO] Loaded plan PASS-2026-11-02T04:32:25Z for PW-SAT3 with 4 activities
+2026-11-11 09:29:13,017 [INFO] Connected to satellite mock on 127.0.0.1:8200
+2026-11-11 09:29:13,017 [INFO] Waiting for pass window...
+2026-11-11 09:29:26,784 [ERROR] ABORT: window_missed
